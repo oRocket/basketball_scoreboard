@@ -1,0 +1,38 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+    <title>Basketball Scoreboard</title>
+</head>
+<body>
+    <div class="container">
+        <div id="scoreboard">
+            <div class="score-info">
+                <h3>HOME</h3>
+                <button id="homeScore" class="scores-btn">0</button>
+                <div class="newScore">
+                    <button class="add" onclick="homePlusOne(); leading();">+1</button>
+                    <button class="add" onclick="homePlusTwo(); leading();">+2</button>
+                    <button class="add" onclick="homePlusThree(); leading();">+3</button>
+                </div>
+            </div>
+            <div class="score-info">
+                <h3>AWAY</h3>
+                <button id="guestScore" class="scores-btn">0</button>
+                <div class="newScore">
+                    <button class="add" onclick="guestPlusOne(); leading();">+1</button>
+                    <button class="add" onclick="guestPlusTwo(); leading();">+2</button>
+                    <button class="add" onclick="guestPlusThree(); leading();">+3</button>
+                </div>
+            </div>
+        </div>
+        <p id="whoIsLeading" class="leadingNotice"></p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
