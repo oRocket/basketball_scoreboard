@@ -89,6 +89,7 @@ h3 {
 @media (max-width: 768px) {
     body {
         margin: 5px;
+        width: 100%;
     }
     .container {
         margin-top: 30%;
