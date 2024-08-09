@@ -92,7 +92,7 @@ h3 {
     .container {
         margin-top: 5%;
         width: 90%;
-        height: 100vh;
+        height: 90%;
     }
     #scoreboard {
         display: flex;
