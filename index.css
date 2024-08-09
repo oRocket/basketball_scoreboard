@@ -87,12 +87,12 @@ h3 {
 /* Media Queries */
 @media (max-width: 768px) {
     body {
-        margin: 5px;
+        margin: 0px;
     }
     .container {
         margin-top: 5%;
         width: 90%;
-        height: 90%;
+        height: 85%;
     }
     #scoreboard {
         display: flex;
